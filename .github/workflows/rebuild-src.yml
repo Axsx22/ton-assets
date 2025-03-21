@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v3
+https://github.com/tonkeeper/ton-assets/blob/5214fa15ae0edef34d43e66a154ecc03c98ab2cd/.github/workflows/rebuild-src.yml#L22        uses: actions/checkout@v3
       - name: Install libraries
         run: pip3 install -r requirements.txt
       - name: Run generator.py
